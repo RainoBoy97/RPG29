@@ -6,7 +6,7 @@ import me.pogostick29dev.rpg29.util.ResourceUtil;
 public class Main {
 
     private Main() {
-        ResourceUtil.getInstance().setup(getClass());
+        ResourceUtil.setup(getClass());
 
         Frame.getInstance();
     }
