@@ -17,7 +17,7 @@ public class Tilesheet {
         tiles = new HashMap<Point, ImageIcon>();
 
         try {
-            image = ResourceUtil.getInstance().getBufferedImage(name);
+            image = ResourceUtil.getBufferedImage(name);
 
             int xTiles = image.getWidth() / Constants.TILE_WIDTH;
             int yTiles = image.getHeight() / Constants.TILE_HEIGHT;
